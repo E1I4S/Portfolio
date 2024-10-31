@@ -41,7 +41,7 @@
         <div class="container px-4 px-lg-5 text-center">
             <!-- Imagen centrada -->
             <div class="mb-4">
-            <img src="assets/img/EliasCardozo.jpg" alt="Elias Cardozo" class="rounded-circle img-fluid profile-img">
+            <img src="assets/img/Elias Cardozo 2.jpg" width="250" height="200" alt="Elias Cardozo" class="rounded-circle img-fluid profile-img">
             </div>
 
             <!-- Descripción debajo de la imagen -->
@@ -50,7 +50,10 @@
                 a enriquecer mi conocimiento y aumentar mi experiencia en este desafiante campo.</p>
 
             <!-- Botón para ir a la sección "About Me" -->
-            <a class="btn btn-primary btn-xl btn-custom" href="#about">Conoce más sobre mí</a>
+            <button type="button" class="btn btn-primary"
+            style="--bs-btn-padding-y: .50rem; --bs-btn-padding-x: .15rem; --bs-btn-font-size: .85rem;" 
+      Custom button
+    href="#about">Conoce más sobre mí</a>
         </div>
     </header>
 
@@ -64,7 +67,7 @@
                         Soy estudiante de Ingeniería Informática, me desenvuelvo optimamente en el desarrollo de sitios web
                         y la codificacion de programas.
                     </p>
-                    <a class="btn btn-custom" href="#services">Mis conocimientos</a>
+                    <a type="button" class="btn btn-warning" href="#services">Mis conocimientos</a>
                 </div>
             </div>
         </div>
@@ -73,10 +76,10 @@
     <!-- Services -->
     <section class="content-section bg-primary text-white text-center" id="services">
         <div class="container px-4 px-lg-5">
-            <h2 class="section-title" style="color: orange;">Conocimientos</h2>
+            <h2 class="section-title" style="color: orange; padding-bottom: 100px; ">Conocimientos</h2>
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <span class="service-icon rounded-circle mx-auto mb-2 icon-zoom" style="font-size: 1.5rem;"><i
+                    <span class="service-icon rounded-circle mx-auto mb-2 icon-zoom" style="font-size: 1.5rem; ;"><i
                             class="fab fa-html5"></i></span>
                     <h5><strong>HTML & CSS</strong></h5>
                 </div>
@@ -100,12 +103,12 @@
     </section>
 
     <!-- Callout-->
-    <section class="callout text-center" style="background-color: green; padding: 4rem 2rem;">
+    <section class="callout text-center" style="background-color: blue; padding: 4rem 2rem;">
         <div class="container px-4 px-lg-5">
             <h2 class="callout-title mx-auto mb-4">¡Descarga mi CV!</h2>
             <em class="callout-emphasis">Conoce más sobre mi experiencia y habilidades.</em>
             <p class="callout-text">Preparado para cualquier desafio.</p>
-            <a class="btn btn-custom" href="assets/Curriculum Vitae.pdf" download>Descargar CV</a>
+            <a type="button" class="btn btn-outline-success" href="assets/Curriculum Vitae.pdf" download>Descargar CV</a>
         </div>
     </section>
 
@@ -114,7 +117,7 @@
     <section class="content-section" id="portfolio">
         <div class="container px-4 px-lg-5">
             <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Portfolio</h3>
+                <h3 class="text-secondary mb-0" style="font-size: 35px;">Portfolio</h3>
                 <h2 class="section-title mb-5">Proyectos Recientes</h2>
             </div>
             <div class="row gx-0">
@@ -127,7 +130,7 @@
                                 </p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/Peliculas.jpg" alt="..." />
+                        <img class="img-fluid" style="height: 350px ;width: 350px; "src="assets/img/Peliculas.jpg" alt="..." />
                     </a>
                 </div>
                 <div class="col-lg-6">
@@ -139,7 +142,7 @@
                                 <p class="mb-0" style="color: #f8f9fa;">Selector de colores realizado con HTML, CSS y JavaScript.</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/RGB.jpeg" alt="..." />
+                        <img class="img-fluid" style="height: 350px ;width: 350px;"src="assets/img/RGB.jpeg" alt="..." />
                     </a>
                 </div>
                 <div class="col-lg-6">
@@ -151,7 +154,7 @@
                                 <p class="mb-0" style="color: #f8f9fa;">Gestor de productos desarrollado en Python.</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/Gestion.png" alt="..." />
+                        <img class="img-fluid "style="height: 350px ;width: 350px;" src="assets/img/Gestion.png" alt="..." />
                     </a>
                 </div>
                 <div class="col-lg-6">
@@ -162,7 +165,7 @@
                                 <p class="mb-0" style="color: #f8f9fa;">Tienda de ropa desarrollada en Python.</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="assets/img/Tienda.jpg" alt="..." />
+                        <img class="img-fluid" style="height: 350px ;width: 350px;" src="assets/img/Tienda.jpg" alt="..." />
                     </a>
                 </div>
             </div>
@@ -178,7 +181,7 @@
             Visita mi cuenta de GitHub para explorar más sobre mi trabajo.
         </p>
         <!-- Botón actualizado con icono de GitHub -->
-        <a class="btn btn-primary btn-xl btn-custom" href="https://github.com/E1I4S" target="_blank" style="display: inline-flex; align-items: center; justify-content: center;">
+        <a type="button" class="btn btn-dark" href="https://github.com/E1I4S" target="_blank" style="display: inline-flex; align-items: center; justify-content: center;">
             <i class="fab fa-github me-2"></i> Mi GitHub
         </a>
     </div>
@@ -224,6 +227,7 @@
     </p>
 
     <!-- Iconos de redes sociales -->
+    <div class="d-flex">
         <a href="https://github.com/E1I4S" target="_blank" rel="noopener noreferrer" class="mx-3">
             <i class="bi bi-github text-white" style="font-size: 1.5rem;"></i>
         </a>
@@ -233,10 +237,11 @@
         <a href="https://www.instagram.com/elelias05/profilecard/?igsh=MTU3d2w0YmV4bW41dA==" target="_blank" rel="noopener noreferrer" class="mx-3">
             <i class="bi bi-instagram text-white" style="font-size: 1.5rem;"></i>
         </a>
-        <a href="eliascardozo013@gmail.com" target="_blank" rel="noopener noreferrer" class="mx-3">
+        <a href="mailto:eliascardozo013@gmail.com" target="_blank" rel="noopener noreferrer" class="mx-3">
             <i class="bi bi-envelope text-white" style="font-size: 1.5rem;"></i>
         </a>
     </div>
+    
 
     <!-- Derechos de autor -->
     <div class="derechos-de-autor text-white small">
